@@ -1,0 +1,28 @@
+```
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Verilator build artifacts
+verif/obj_dir/
+*.o
+*.a
+*.d
+
+# Simulation outputs
+*.vcd
+*.fst
+*.wlf
+
+# Editor files
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Vivado/Quartus (for later)
+*.jou
+*.log
+*.rpt
+.Xil/
